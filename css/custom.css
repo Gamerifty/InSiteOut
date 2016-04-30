@@ -38,3 +38,7 @@ body {
 footer {
   padding-bottom: 30px;
 }
+
+.featurette-li::before {
+  content: ;
+}

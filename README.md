@@ -1,2 +1,0 @@
-# InSiteOut
-README
