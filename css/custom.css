@@ -8,6 +8,18 @@ body {
   }
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
 .marketing .col-lg-4 {
   margin-top: 60px;
   margin-bottom: 20px;
@@ -51,7 +63,7 @@ footer {
 }
 
 .pricing-p {
-  padding: 10px 25px 10px;
+  padding: 10px 50px 10px 50px;
   width: 6vw;
   border-radius: 5px;
   font-size: 200%;
@@ -78,7 +90,7 @@ footer {
 
 .testpage-mainpage {
   display: flex;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
 }
 
 .testpage-marketing {
@@ -89,7 +101,8 @@ footer {
   border-radius: 5px;
   padding: 10px;
   margin: 0 0 2vh 0;
-  width: 13vw;
+  width: 17vw;
+  color: #f9f9f9;
 }
 
 .testpage-single {
@@ -118,3 +131,16 @@ footer {
     color: #524d45;
     font-size: 80%;
   }
+
+.testpage-form {
+  /*border: 1px solid blue;*/
+  padding: 3vw;
+}
+
+.scrollToTop {
+  color: #3d8ebe;
+}
+
+.testpage {
+  color: #3d8ebe;
+}
